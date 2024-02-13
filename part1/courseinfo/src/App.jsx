@@ -1,5 +1,5 @@
 const App = () => {
-
+//     function call for counter and setCounter
     const course = {
         name: 'Half Stack application development',
         parts: [
@@ -25,13 +25,13 @@ const App = () => {
                 <Content parts = {course.parts}/>
                 <Total parts = {course.parts}/>
         </div>
-    )
+)
 }
 
 const Header = (props) => {
     console.log(props)
-    const course= props.course
-    return(
+    const course = props.course
+    return (
         <h1>
             {course}
         </h1>
